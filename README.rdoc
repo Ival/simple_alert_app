@@ -10,6 +10,8 @@
 
 4. 出现的位置
 
+5. 以列队形式显示
+
 == Usage
 
 Alert Basics
