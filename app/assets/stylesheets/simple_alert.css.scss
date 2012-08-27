@@ -1,0 +1,33 @@
+// Place all the styles related to the simple_alert controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.alert-tag {
+	width: 300px; 
+	box-shadow: rgb(204, 204, 204) 0px 0px 10px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	display: block;
+	background:darken(#fff, 5);
+	position:fixed;
+	padding:8px 15px;
+}
+.alert-content {
+	margin:5px 0 0 0;
+	line-height:22px;
+}
+
+
+.alert-point-left {
+	left: 3px;
+}
+.alert-point-right {
+	right: 3px;
+}
+.alert-point-bottom {
+	bottom: 3px;
+}
+.alert-point-top {
+	top: 3px;
+}

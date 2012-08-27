@@ -1,0 +1,572 @@
+@mixin alert-icon($w, $h:0) {
+  background-image: url(glyphicons-halflings.png);
+  background-position: $w $h;
+  background-repeat: no-repeat;
+}
+
+.alert-title span, h4{float:left; }
+.alert-icon {width: 14px; height: 14px; }
+.alert-title a {
+  float:right;
+  &:hover {
+    cursor : pointer;
+  }
+}
+
+.alert-icon-none {
+}
+.alert-icon-glass {
+	@include alert-icon(0, 0);
+}
+
+.alert-icon-music {
+	@include alert-icon(-24px, 0);
+}
+
+.alert-icon-search {
+  @include alert-icon(-48px, 0);
+}
+
+.alert-icon-envelope {
+  @include alert-icon(-72px, 0);
+}
+
+.alert-icon-heart {
+  @include alert-icon(-96px, 0);
+}
+
+.alert-icon-star {
+  @include alert-icon(-120px, 0);
+}
+
+.alert-icon-star-empty {
+  @include alert-icon(-144px, 0);
+}
+
+.alert-icon-user {
+  @include alert-icon(-168px, 0);
+}
+
+.alert-icon-film {
+  @include alert-icon(-192px, 0);
+}
+
+.alert-icon-th-large {
+  @include alert-icon(-216px, 0);
+}
+
+.alert-icon-th {
+  @include alert-icon(-240px, 0);
+}
+
+.alert-icon-th-list {
+  @include alert-icon(-264px, 0);
+}
+
+.alert-icon-ok {
+  @include alert-icon(-288px, 0);
+}
+
+.alert-icon-remove {
+  @include alert-icon(-312px, 0);
+}
+
+.alert-icon-zoom-in {
+  @include alert-icon(-336px, 0);
+}
+
+.alert-icon-zoom-out {
+  @include alert-icon(-360px, 0);
+}
+
+.alert-icon-off {
+  @include alert-icon(-384px, 0);
+}
+
+.alert-icon-signal {
+  @include alert-icon(-408px, 0);
+}
+
+.alert-icon-cog {
+  @include alert-icon(-432px, 0);
+}
+
+.alert-icon-trash {
+  @include alert-icon(-456px, 0);
+}
+
+.alert-icon-home {
+  @include alert-icon(0, -24px);
+}
+
+.alert-icon-file {
+  @include alert-icon(-24px, -24px);
+}
+
+.alert-icon-time {
+  @include alert-icon(-48px, -24px);
+}
+
+.alert-icon-road {
+  @include alert-icon(-72px, -24px);
+}
+
+.alert-icon-download-alt {
+  @include alert-icon(-96px, -24px);
+}
+
+.alert-icon-download {
+  @include alert-icon(-120px, -24px);
+}
+
+.alert-icon-upload {
+  @include alert-icon(-144px, -24px);
+}
+
+.alert-icon-inbox {
+  @include alert-icon(-168px, -24px);
+}
+
+.alert-icon-play-circle {
+  @include alert-icon(-192px, -24px);
+}
+
+.alert-icon-repeat {
+  @include alert-icon(-216px, -24px);
+}
+
+.alert-icon-refresh {
+  @include alert-icon(-240px, -24px);
+}
+
+.alert-icon-list-alt {
+  @include alert-icon(-264px, -24px);
+}
+
+.alert-icon-lock {
+  @include alert-icon(-287px, -24px);
+}
+
+.alert-icon-flag {
+  @include alert-icon(-312px, -24px);
+}
+
+.alert-icon-headphones {
+  @include alert-icon(-336px, -24px);
+}
+
+.alert-icon-volume-off {
+  @include alert-icon(-360px, -24px);
+}
+
+.alert-icon-volume-down {
+  @include alert-icon(-384px, -24px);
+}
+
+.alert-icon-volume-up {
+  @include alert-icon(-408px, -24px);
+}
+
+.alert-icon-qrcode {
+  @include alert-icon(-432px, -24px);
+}
+
+.alert-icon-barcode {
+  @include alert-icon(-456px, -24px);
+}
+
+.alert-icon-tag {
+  @include alert-icon(0, -48px);
+}
+
+.alert-icon-tags {
+  @include alert-icon(-25px, -48px);
+}
+
+.alert-icon-book {
+  @include alert-icon(-48px, -48px);
+}
+
+.alert-icon-bookmark {
+  @include alert-icon(-72px, -48px);
+}
+
+.alert-icon-print {
+  @include alert-icon(-96px, -48px);
+}
+
+.alert-icon-camera {
+  @include alert-icon(-120px, -48px);
+}
+
+.alert-icon-font {
+  @include alert-icon(-144px, -48px);
+}
+
+.alert-icon-bold {
+  @include alert-icon(-167px, -48px);
+}
+
+.alert-icon-italic {
+  @include alert-icon(-192px, -48px);
+}
+
+.alert-icon-text-height {
+  @include alert-icon(-216px, -48px);
+}
+
+.alert-icon-text-width {
+  @include alert-icon(-240px, -48px);
+}
+
+.alert-icon-align-left {
+  @include alert-icon(-264px, -48px);
+}
+
+.alert-icon-align-center {
+  @include alert-icon(-288px, -48px);
+}
+
+.alert-icon-align-right {
+  @include alert-icon(-312px, -48px);
+}
+
+.alert-icon-align-justify {
+  @include alert-icon(-336px, -48px);
+}
+
+.alert-icon-list {
+  @include alert-icon(-360px, -48px);
+}
+
+.alert-icon-indent-left {
+  @include alert-icon(-384px, -48px);
+}
+
+.alert-icon-indent-right {
+  @include alert-icon(-408px, -48px);
+}
+
+.alert-icon-facetime-video {
+  @include alert-icon(-432px, -48px);
+}
+
+.alert-icon-picture {
+  @include alert-icon(-456px, -48px);
+}
+
+.alert-icon-pencil {
+  @include alert-icon(0, -72px);
+}
+
+.alert-icon-map-marker {
+  @include alert-icon(-24px, -72px);
+}
+
+.alert-icon-adjust {
+  @include alert-icon(-48px, -72px);
+}
+
+.alert-icon-tint {
+  @include alert-icon(-72px, -72px);
+}
+
+.alert-icon-edit {
+  @include alert-icon(-96px, -72px);
+}
+
+.alert-icon-share {
+  @include alert-icon(-120px, -72px);
+}
+
+.alert-icon-check {
+  @include alert-icon(-144px, -72px);
+}
+
+.alert-icon-move {
+  @include alert-icon(-168px, -72px);
+}
+
+.alert-icon-step-backward {
+  @include alert-icon(-192px, -72px);
+}
+
+.alert-icon-fast-backward {
+  @include alert-icon(-216px, -72px);
+}
+
+.alert-icon-backward {
+  @include alert-icon(-240px, -72px);
+}
+
+.alert-icon-play {
+  @include alert-icon(-264px, -72px);
+}
+
+.alert-icon-pause {
+  @include alert-icon(-288px, -72px);
+}
+
+.alert-icon-stop {
+  @include alert-icon(-312px, -72px);
+}
+
+.alert-icon-forward {
+  @include alert-icon(-336px, -72px);
+}
+
+.alert-icon-fast-forward {
+  @include alert-icon(-360px, -72px);
+}
+
+.alert-icon-step-forward {
+  @include alert-icon(-384px, -72px);
+}
+
+.alert-icon-eject {
+  @include alert-icon(-408px, -72px);
+}
+
+.alert-icon-chevron-left {
+  @include alert-icon(-432px, -72px);
+}
+
+.alert-icon-chevron-right {
+  @include alert-icon(-456px, -72px);
+}
+
+.alert-icon-plus-sign {
+  @include alert-icon(0, -96px);
+}
+
+.alert-icon-minus-sign {
+  @include alert-icon(-24px, -96px);
+}
+
+.alert-icon-remove-sign {
+  @include alert-icon(-48px, -96px);
+}
+
+.alert-icon-ok-sign {
+  @include alert-icon(-72px, -96px);
+}
+
+.alert-icon-question-sign {
+  @include alert-icon(-96px, -96px);
+}
+
+.alert-icon-info-sign {
+  @include alert-icon(-120px, -96px);
+}
+
+.alert-icon-screenshot {
+  @include alert-icon(-144px, -96px);
+}
+
+.alert-icon-remove-circle {
+  @include alert-icon(-168px, -96px);
+}
+
+.alert-icon-ok-circle {
+  @include alert-icon(-192px, -96px);
+}
+
+.alert-icon-ban-circle {
+  @include alert-icon(-216px, -96px);
+}
+
+.alert-icon-arrow-left {
+  @include alert-icon(-240px, -96px);
+}
+
+.alert-icon-arrow-right {
+  @include alert-icon(-264px, -96px);
+}
+
+.alert-icon-arrow-up {
+  @include alert-icon(-289px, -96px);
+}
+
+.alert-icon-arrow-down {
+  @include alert-icon(-312px, -96px);
+}
+
+.alert-icon-share-alt {
+  @include alert-icon(-336px, -96px);
+}
+
+.alert-icon-resize-full {
+  @include alert-icon(-360px, -96px);
+}
+
+.alert-icon-resize-small {
+  @include alert-icon(-384px, -96px);
+}
+
+.alert-icon-plus {
+  @include alert-icon(-408px, -96px);
+}
+
+.alert-icon-minus {
+  @include alert-icon(-433px, -96px);
+}
+
+.alert-icon-asterisk {
+  @include alert-icon(-456px, -96px);
+}
+
+.alert-icon-exclamation-sign {
+  @include alert-icon(0, -120px);
+}
+
+.alert-icon-gift {
+  @include alert-icon(-24px, -120px);
+}
+
+.alert-icon-leaf {
+  @include alert-icon(-48px, -120px);
+}
+
+.alert-icon-fire {
+  @include alert-icon(-72px, -120px);
+}
+
+.alert-icon-eye-open {
+  @include alert-icon(-96px, -120px);
+}
+
+.alert-icon-eye-close {
+  @include alert-icon(-120px, -120px);
+}
+
+.alert-icon-warning-sign {
+  @include alert-icon(-144px, -120px);
+}
+
+.alert-icon-plane {
+  @include alert-icon(-168px, -120px);
+}
+
+.alert-icon-calendar {
+  @include alert-icon(-192px, -120px);
+}
+
+.alert-icon-random {
+  @include alert-icon(-216px, -120px);
+}
+
+.alert-icon-comment {
+  @include alert-icon(-240px, -120px);
+}
+
+.alert-icon-magnet {
+  @include alert-icon(-264px, -120px);
+}
+
+.alert-icon-chevron-up {
+  @include alert-icon(-288px, -120px);
+}
+
+.alert-icon-chevron-down {
+  @include alert-icon(-313px, -119px);
+}
+
+.alert-icon-retweet {
+  @include alert-icon(-336px, -120px);
+}
+
+.alert-icon-shopping-cart {
+  @include alert-icon(-360px, -120px);
+}
+
+.alert-icon-folder-close {
+  @include alert-icon(-384px, -120px);
+}
+
+.alert-icon-folder-open {
+  @include alert-icon(-408px, -120px);
+}
+
+.alert-icon-resize-vertical {
+  @include alert-icon(-432px, -119px);
+}
+
+.alert-icon-resize-horizontal {
+  @include alert-icon(-456px, -118px);
+}
+
+.alert-icon-hdd {
+  @include alert-icon(0, -144px);
+}
+
+.alert-icon-bullhorn {
+  @include alert-icon(-24px, -144px);
+}
+
+.alert-icon-bell {
+  @include alert-icon(-48px, -144px);
+}
+
+.alert-icon-certificate {
+  @include alert-icon(-72px, -144px);
+}
+
+.alert-icon-thumbs-up {
+  @include alert-icon(-96px, -144px);
+}
+
+.alert-icon-thumbs-down {
+  @include alert-icon(-120px, -144px);
+}
+
+.alert-icon-hand-right {
+  @include alert-icon(-144px, -144px);
+}
+
+.alert-icon-hand-left {
+  @include alert-icon(-168px, -144px);
+}
+
+.alert-icon-hand-up {
+  @include alert-icon(-192px, -144px);
+}
+
+.alert-icon-hand-down {
+  @include alert-icon(-216px, -144px);
+}
+
+.alert-icon-circle-arrow-right {
+  @include alert-icon(-240px, -144px);
+}
+
+.alert-icon-circle-arrow-left {
+  @include alert-icon(-264px, -144px);
+}
+
+.alert-icon-circle-arrow-up {
+  @include alert-icon(-288px, -144px);
+}
+
+.alert-icon-circle-arrow-down {
+  @include alert-icon(-312px, -144px);
+}
+
+.alert-icon-globe {
+  @include alert-icon(-336px, -144px);
+}
+
+.alert-icon-wrench {
+  @include alert-icon(-360px, -144px);
+}
+
+.alert-icon-tasks {
+  @include alert-icon(-384px, -144px);
+}
+
+.alert-icon-filter {
+  @include alert-icon(-408px, -144px);
+}
+
+.alert-icon-briefcase {
+  @include alert-icon(-432px, -144px);
+}
