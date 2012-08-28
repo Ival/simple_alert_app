@@ -6,12 +6,10 @@
 
 2. 背景颜色
 
-3. 自动消失
-
-4. 出现的位置
-
-5. 以列队形式显示
+3. 出现的位置
 
 == Usage
 
 Alert Basics
+
+<%= simple_alert "Message" %>
