@@ -10,21 +10,25 @@
 
 == Usage
 
-Alert Basics
+* Alert Basics
 
 <code><%= simple_alert "Message" %></code>
 
-Alert with title
+* Alert with title
 
 <code><%= simple_alert "Message", :title => "Title" %></code>
 
-Alert with icon
+* Alert with icon
 
 <code><%= simple_alert "Message", :icon => :music %></code>
 
-图标的样式与bootstrap的icon样式一样
+* Alert有5种类型，分别为：default, success, info, warning和danger，你能通过设置type来定义类型
 
-另外simple_alert有4个显示位置，分别为左上角，左下角，右上角和右下角
+You can use it like this: <code><%= simple_alert "Be carefully", :icon => :question_sign, :type => :danger %></code>
+
+* 图标的样式与bootstrap的icon样式一样
+
+另外simple_alert有4个显示位置，分别为左上角，左下角，右上角和右下角，你能通过设置point来定义位置
 
 You can use it like this:
 
