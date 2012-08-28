@@ -12,4 +12,25 @@
 
 Alert Basics
 
-<%= simple_alert "Message" %>
+<code><%= simple_alert "Message" %></code>
+
+Alert with title
+
+<code><%= simple_alert "Message", :title => "Title" %></code>
+
+Alert with icon
+
+<code><%= simple_alert "Message", :icon => :music %></code>
+
+图标的样式与bootstrap的icon样式一样
+
+另外simple_alert有4个显示位置，分别为左上角，左下角，右上角和右下角
+
+You can use it like this:
+
+1. 左上角：<code><%= simple_alert "左上角", :title => "Demo", :icon => :tags, :point => [:left, :top] %></code>
+2. 左下角：<code><%= simple_alert "左下角", :title => "Demo", :icon => :tags, :point => [:left, :bottom] %></code>
+3. 右上角：<code><%= simple_alert "左上角", :title => "Demo", :icon => :tags, :point => [:left, :top] %></code>
+4. 右下角：<code><%= simple_alert "左下角", :title => "Demo", :icon => :tags, :point => [:left, :bottom] %></code>
+
+系统默认是右上角
