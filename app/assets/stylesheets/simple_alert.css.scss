@@ -2,7 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .alert-tag {
-	width: 300px; 
 	box-shadow: rgb(204, 204, 204) 0px 0px 10px;
 	border-top-left-radius: 5px;
 	border-top-right-radius: 5px;
@@ -18,7 +17,6 @@
 	line-height:22px;
 }
 
-
 .alert-point-left {
 	left: 3px;
 }
@@ -30,4 +28,25 @@
 }
 .alert-point-top {
 	top: 3px;
+}
+
+.alert-type-info {
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+.alert-type-success {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+.alert-type-danger {
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+}
+.alert-type-warning {
+	color: #faa732;
+  background-color: #fcf8e3;
+  border-color: #FBEED5;
 }
