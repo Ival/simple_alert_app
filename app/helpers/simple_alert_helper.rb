@@ -20,6 +20,8 @@ module SimpleAlertHelper
 				@options[:width] = 300
 			end
 		end
+		
+		@options[:width]
 	end
 	
 	def icon
